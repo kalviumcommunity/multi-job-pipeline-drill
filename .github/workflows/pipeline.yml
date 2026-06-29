@@ -5,7 +5,7 @@ on:
     branches: ['*']
   pull_request:
     branches: [main]
-
+# testing by running `gh workflow run pipeline.yml` in the terminal
 jobs:
   lint:
     runs-on: ubuntu-latest
