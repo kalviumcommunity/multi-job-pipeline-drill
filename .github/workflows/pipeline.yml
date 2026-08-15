@@ -95,6 +95,6 @@ jobs:
       - deploy-staging
       - deploy-production
     if: always()
-    timeout-minutes: 5
+    timeout-minutes: 15
     steps:
       - run: echo "Pipeline notification sent"
